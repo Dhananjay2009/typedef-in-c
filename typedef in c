@@ -1,0 +1,24 @@
+#include <stdio.h>
+
+typedef struct student    //struct student = std
+{
+    int marks;
+}std;
+
+int main()
+{
+     std s1,s2;
+     s1.marks = 59;
+     s2.marks = 57;
+     printf("the marks of s1 is %d\n", s1.marks);
+     printf("the marks of s2 is %d\n", s2.marks);
+
+    // [typedef <previous name> <alias name>;]
+
+    //typedef unsigned long ul;
+    //typedef int integer;
+    //ul l1, l2, l3; 
+    //integer a = 4;
+    //printf("the value of a is %d", a);
+    return 0;
+}
